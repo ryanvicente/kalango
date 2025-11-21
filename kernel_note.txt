@@ -1,0 +1,2 @@
+Register middleware in app/Http/Kernel.php (add to $routeMiddleware):
+'verify.supabase' => \App\Http\Middleware\VerifySupabaseToken::class,

@@ -1,0 +1,6 @@
+Add this to config/services.php (merge into array):
+'supabase' => [
+    'url' => env('SUPABASE_URL'),
+    'anon' => env('SUPABASE_ANON_KEY'),
+    'service_role' => env('SUPABASE_SERVICE_ROLE_KEY'),
+],
